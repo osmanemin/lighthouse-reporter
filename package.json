@@ -1,0 +1,29 @@
+{
+  "name": "lighthouse-reporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "dotenv": "^16.0.1",
+    "nodemailer": "^6.7.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "lighthouse": "^9.6.5",
+    "mocha": "^10.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "lint": "npx eslint ./",
+    "test": "mocha --timeout 60000"
+  },
+  "keywords": [
+    "lighthouse",
+    "performance",
+    "test"
+  ],
+  "author": "",
+  "license": "ISC"
+}
